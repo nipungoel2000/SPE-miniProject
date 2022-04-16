@@ -1,1 +1,2 @@
-localhost ansible_user = nipun
+[ubuntu18]
+172.16.134.143 ansible_user=nipun

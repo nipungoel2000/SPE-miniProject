@@ -1,5 +1,5 @@
 - name: Pull and Run docker image
-  hosts: all
+  hosts: ubuntu18
   tasks:
     - name: Pull nipungoel2000/calculator-devops
       docker_image:
