@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+
+    stages {
+        // stage('Step 1: Git clone') {
+        //     steps {
+        //         git url:'https://github.com/nipungoel2000/SPE-miniProject.git', branch: 'main'
+        //     }
+        // }
+        stage('Step2 : Maven Build') {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
+        stage('Step3 : Docker build') {
+            steps{
+                script {
+                    imageName=docker.build "nipungoel2000/calculator-devops"
+                }
+            }
+        }
+        stage('Step4 : Docker push img') {
+            steps {
+                script{
+                    docker.withRegistry('','docker-nipun'){
+                    imageName.push()
+                    }
+                }    
+            }
+        }
+        stage('Step5 : ansible pull img') {
+            steps {
+                ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventoryDetails', playbook: 'deployConfigs.yml', sudoUser: null
+            }
+        }
+    }
+}

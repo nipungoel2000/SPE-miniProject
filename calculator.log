@@ -26,3 +26,31 @@
 2022-04-16 13:41:29.403 [main] INFO  Calculator.Calculator - log(2.8) = 1.0296194171811581
 2022-04-16 13:41:29.404 [main] INFO  Calculator.Calculator - Natural logarithm of8.1
 2022-04-16 13:41:29.404 [main] INFO  Calculator.Calculator - log(8.1) = 2.0918640616783932
+2022-04-17 15:27:39.872 [main] INFO  Calculator.Calculator - Factorial of 6
+2022-04-17 15:27:39.886 [main] INFO  Calculator.Calculator - !6 = 720
+2022-04-17 15:27:39.887 [main] INFO  Calculator.Calculator - Factorial of 1
+2022-04-17 15:27:39.887 [main] INFO  Calculator.Calculator - !1 = 1
+2022-04-17 15:27:39.894 [main] INFO  Calculator.Calculator - Square root of 25.0 = 5.0
+2022-04-17 15:27:39.894 [main] INFO  Calculator.Calculator - Square root of 1.0 = 1.0
+2022-04-17 15:27:39.895 [main] INFO  Calculator.Calculator - Square root of 91.0 = 9.539392014169456
+2022-04-17 15:27:39.895 [main] INFO  Calculator.Calculator - Square root of 5.0 = 2.23606797749979
+2022-04-17 15:27:39.896 [main] INFO  Calculator.Calculator - Natural logarithm of1.0
+2022-04-17 15:27:39.896 [main] INFO  Calculator.Calculator - log(1.0) = 0.0
+2022-04-17 15:27:39.897 [main] INFO  Calculator.Calculator - Natural logarithm of2.718
+2022-04-17 15:27:39.897 [main] INFO  Calculator.Calculator - log(2.718) = 0.999896315728952
+2022-04-17 15:27:39.898 [main] INFO  Calculator.Calculator - Factorial of 0
+2022-04-17 15:27:39.898 [main] INFO  Calculator.Calculator - !0 = 1
+2022-04-17 15:27:39.899 [main] INFO  Calculator.Calculator - Factorial of 6
+2022-04-17 15:27:39.899 [main] INFO  Calculator.Calculator - !6 = 720
+2022-04-17 15:27:39.900 [main] INFO  Calculator.Calculator - 1.0 powers 2.0
+2022-04-17 15:27:39.900 [main] INFO  Calculator.Calculator - 1.0^2.0 = 1.0
+2022-04-17 15:27:39.901 [main] INFO  Calculator.Calculator - 3.0 powers 1.0
+2022-04-17 15:27:39.901 [main] INFO  Calculator.Calculator - 3.0^1.0 = 3.0
+2022-04-17 15:27:39.902 [main] INFO  Calculator.Calculator - 3.0 powers 3.0
+2022-04-17 15:27:39.902 [main] INFO  Calculator.Calculator - 3.0^3.0 = 27.0
+2022-04-17 15:27:39.902 [main] INFO  Calculator.Calculator - 4.0 powers 1.0
+2022-04-17 15:27:39.903 [main] INFO  Calculator.Calculator - 4.0^1.0 = 4.0
+2022-04-17 15:27:39.903 [main] INFO  Calculator.Calculator - Natural logarithm of2.8
+2022-04-17 15:27:39.903 [main] INFO  Calculator.Calculator - log(2.8) = 1.0296194171811581
+2022-04-17 15:27:39.904 [main] INFO  Calculator.Calculator - Natural logarithm of8.1
+2022-04-17 15:27:39.904 [main] INFO  Calculator.Calculator - log(8.1) = 2.0918640616783932
