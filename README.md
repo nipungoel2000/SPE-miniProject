@@ -1,1 +1,1 @@
-This is Scientific Calculator project using DevOps toos.
+This is Scientific Calculator project using DevOps tools.
