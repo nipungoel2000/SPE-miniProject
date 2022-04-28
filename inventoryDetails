@@ -1,2 +1,2 @@
 [ubuntu18]
-172.16.134.143 ansible_user=nipun
+172.16.135.145 ansible_user=nipun
